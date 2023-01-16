@@ -1,0 +1,21 @@
+seed_list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+tx_type: [1] # only one value can be set when drawing the figures
+
+default_txn: 512
+txn_list: [128, 256, 512, 1024, 2048, 4096]
+
+default_subset: 16
+subsets_list: [32, 64, 128, 256, 512, 1024]
+
+default_set_dist:
+set_dist_list: []
+set_dist_mu_list: []
+
+default_size_dist:
+size_dist_list: []
+
+dist_std_proportion_list: []
+
+# the average gas limit from block 11,000,000 to 12,000,000
+default_capacity: 12500
+capacity_list: []
